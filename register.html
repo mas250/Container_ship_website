@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Page</title>
+
+</head>
+<body>
+<!-- register user -->
+
+	<body>
+    <div class= "form">
+    <form name="loginForm" action="manage_users.php" method="post"
+    onsubmit="return validateForm()">
+    <p>Register your username:</p>
+    <input type="text" name="newuser" value="">
+    <p>Register your password:</p>
+    <input type="password" name="newpass" value="">
+    <input type="submit" value="Submit">
+    </form>
+  </div>
+	</br></br>
+
+
+</body>
+</html>
+
+<?php
+include(manage_users.php);
+?>

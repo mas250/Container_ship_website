@@ -1,0 +1,145 @@
+
+body {
+	background-color: #3dbcf7;
+	width: 90% ;
+	margin-left: auto;
+  margin-right: auto;
+	padding: 10px;
+  font-size: 14px ;
+  font-family:  'Open sans','Droid Sans', Helvetica, Arial, sans-serif;
+}
+h1 {
+    color: black;
+		font-size: 30px ;
+}
+/* unvisited link */
+a:link {
+	color: #fff;
+
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 26px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+		background-color: #000;
+    color: white;
+}
+
+input[type=text]:focus {
+    width: 60%;
+}
+input[type=number] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 26px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+		background-color: #000;
+    color: white;
+}
+
+input[type=number]:focus {
+    width: 25%;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+select {
+    width: 45%;
+    padding: 16px 20px;
+		font-size: 26px;
+    border: none;
+    border-radius: 4px;
+		background-color: #000;
+    color: white;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+	}
+		img {
+		    display: block;
+		    margin: 0 auto;
+		}
+
+		ul {
+			float: centre;
+			font-size: 25px;
+			text-align: center;
+
+		}
+		ul a {
+
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+		}
+		li {
+		    float: centre;
+				font-size: 15px;
+		}
+
+		li a {
+		    display: block;
+		    color: white;
+		    text-align: center;
+		    padding:14px 25px 14px 16px;
+		    text-decoration: none;
+		}
+
+		a:hover:not(.active) {
+		    background-color: #111;
+		}
+
+		.active {
+		background-color:#4CAF50;
+		}
+
+		.topnav {
+		    list-style-type: none;
+		    margin: 20px;
+		    padding: 14px 25px 14px 16px;
+		    overflow: hidden;
+		    background-color: #4CAF50;
+				margin-top: 55px ;
+				font-size: 20px;
+		}
+
+.nav_text{
+	padding-right:30px;
+}

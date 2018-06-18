@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+<div id="tfheader">
+  <form  method="post" action="index.php">
+          <input type="text"  class="tftextinput2" name="name"
+          size="21" maxlength="120" value="">
+          <input type="submit" value="Search Ship Name" >
+  </form>
+  <form  method="post" action="index.php">
+  <input type="number"   name="low"
+  placeholder="low" size="21" maxlength="120" value="">
+
+
+  <form  method="post" action="index.php">
+  <input type="number"  class="tftextinput2" name="high"
+  placeholder="high" size="21" maxlength="120" value="">
+  <input type="submit" value="high" >
+  </form>
+
+
+<form  method="post" action="index.php">
+<input type="text"  class="tftextinput2" name="builder"
+size="21" maxlength="120" value="">
+<input type="submit" value="Builder" >
+</form>
+
+</div>
+</body>
+</html>
+
+<?php
+require("connection.php") ;
+require("return_names.php") ;
+require("return_builder.php") ;
+require("return_capacity.php") ;
+require("manage_users.php");
+
+
+?>
